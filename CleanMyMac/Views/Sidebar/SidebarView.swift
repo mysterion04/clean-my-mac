@@ -41,7 +41,7 @@ struct SidebarView: View {
                 Image(systemName: "sparkles")
                     .font(.title2)
                     .foregroundStyle(.blue)
-                Text("CleanMyMac")
+                Text("cleann-mi-maccc")
                     .font(.headline)
                     .foregroundStyle(.white)
             }

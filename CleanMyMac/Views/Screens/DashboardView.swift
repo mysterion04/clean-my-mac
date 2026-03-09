@@ -20,7 +20,7 @@ struct DashboardView: View {
                             .font(.system(size: 36))
                             .foregroundStyle(.blue)
                         VStack(alignment: .leading, spacing: 2) {
-                            Text("CleanMyMac")
+                            Text("cleann-mi-maccc")
                                 .font(.largeTitle.bold())
                                 .foregroundStyle(.white)
                             Text("Keep your Mac clean and fast")
@@ -134,7 +134,7 @@ struct FDAInstructionsView: View {
             Text("Grant Full Disk Access")
                 .font(.title2.bold())
 
-            Text("To allow CleanMyMac to scan all system files:")
+            Text("To allow cleann-mi-maccc to scan all system files:")
                 .foregroundStyle(.secondary)
 
             VStack(alignment: .leading, spacing: 10) {
@@ -143,8 +143,8 @@ struct FDAInstructionsView: View {
                     "Go to Privacy & Security",
                     "Select Full Disk Access",
                     "Click the + button",
-                    "Navigate to and select CleanMyMac",
-                    "Restart CleanMyMac"
+                    "Navigate to and select cleann-mi-maccc",
+                    "Restart cleann-mi-maccc"
                 ].enumerated()), id: \.0) { idx, step in
                     HStack(alignment: .top, spacing: 10) {
                         Text("\(idx + 1)")
