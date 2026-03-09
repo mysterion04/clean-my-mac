@@ -49,38 +49,37 @@
 
 /* Begin PBXFileReference section */
 		001A1B072B1F3A4D00A1B2C3 /* CleanMyMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanMyMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		001A1B2B2B1F3A4D00A1B2C3 /* CleanMyMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App/CleanMyMacApp.swift"; sourceTree = "<group>"; };
-		001A1B2D2B1F3A4D00A1B2C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App/ContentView.swift"; sourceTree = "<group>"; };
-		001A1B2F2B1F3A4D00A1B2C3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/MainView.swift"; sourceTree = "<group>"; };
-		001A1B312B1F3A4D00A1B2C3 /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/SharedComponents.swift"; sourceTree = "<group>"; };
-		001A1B332B1F3A4D00A1B2C3 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/Sidebar/SidebarView.swift"; sourceTree = "<group>"; };
-		001A1B352B1F3A4D00A1B2C3 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/Screens/DashboardView.swift"; sourceTree = "<group>"; };
-		001A1B372B1F3A4D00A1B2C3 /* AppUninstallerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/Screens/AppUninstallerView.swift"; sourceTree = "<group>"; };
-		001A1B392B1F3A4D00A1B2C3 /* JunkScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/Screens/JunkScannerView.swift"; sourceTree = "<group>"; };
-		001A1B3B2B1F3A4D00A1B2C3 /* DiskAnalyzerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/Screens/DiskAnalyzerView.swift"; sourceTree = "<group>"; };
-		001A1B3D2B1F3A4D00A1B2C3 /* LargeFileFinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Views/Screens/LargeFileFinderView.swift"; sourceTree = "<group>"; };
-		001A1B3F2B1F3A4D00A1B2C3 /* AppUninstallerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewModels/AppUninstallerViewModel.swift"; sourceTree = "<group>"; };
-		001A1B412B1F3A4D00A1B2C3 /* JunkScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewModels/JunkScannerViewModel.swift"; sourceTree = "<group>"; };
-		001A1B432B1F3A4D00A1B2C3 /* DiskAnalyzerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewModels/DiskAnalyzerViewModel.swift"; sourceTree = "<group>"; };
-		001A1B452B1F3A4D00A1B2C3 /* LargeFileFinderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewModels/LargeFileFinderViewModel.swift"; sourceTree = "<group>"; };
-		001A1B472B1F3A4D00A1B2C3 /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/AppInfo.swift"; sourceTree = "<group>"; };
-		001A1B492B1F3A4D00A1B2C3 /* FileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/FileItem.swift"; sourceTree = "<group>"; };
-		001A1B4B2B1F3A4D00A1B2C3 /* JunkFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/JunkFile.swift"; sourceTree = "<group>"; };
-		001A1B4D2B1F3A4D00A1B2C3 /* DiskNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/DiskNode.swift"; sourceTree = "<group>"; };
-		001A1B4F2B1F3A4D00A1B2C3 /* FileSystemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/FileSystemService.swift"; sourceTree = "<group>"; };
-		001A1B512B1F3A4D00A1B2C3 /* AppDetectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/AppDetectionService.swift"; sourceTree = "<group>"; };
-		001A1B532B1F3A4D00A1B2C3 /* AppUninstallerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/AppUninstallerService.swift"; sourceTree = "<group>"; };
-		001A1B552B1F3A4D00A1B2C3 /* JunkFileScannerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/JunkFileScannerService.swift"; sourceTree = "<group>"; };
-		001A1B572B1F3A4D00A1B2C3 /* DiskAnalyzerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/DiskAnalyzerService.swift"; sourceTree = "<group>"; };
-		001A1B592B1F3A4D00A1B2C3 /* LargeFileFinderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/LargeFileFinderService.swift"; sourceTree = "<group>"; };
-		001A1B5B2B1F3A4D00A1B2C3 /* PermissionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services/PermissionService.swift"; sourceTree = "<group>"; };
-		001A1B5D2B1F3A4D00A1B2C3 /* PathConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utilities/PathConstants.swift"; sourceTree = "<group>"; };
-		001A1B5F2B1F3A4D00A1B2C3 /* FormattingUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utilities/FormattingUtils.swift"; sourceTree = "<group>"; };
-		001A1B612B1F3A4D00A1B2C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
-		001A1B632B1F3A4D00A1B2C3 /* CleanMyMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CleanMyMac.entitlements"; sourceTree = "<group>"; };
+		001A1B2B2B1F3A4D00A1B2C3 /* CleanMyMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanMyMacApp.swift; sourceTree = "<group>"; };
+		001A1B2D2B1F3A4D00A1B2C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		001A1B2F2B1F3A4D00A1B2C3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		001A1B312B1F3A4D00A1B2C3 /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		001A1B332B1F3A4D00A1B2C3 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		001A1B352B1F3A4D00A1B2C3 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		001A1B372B1F3A4D00A1B2C3 /* AppUninstallerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUninstallerView.swift; sourceTree = "<group>"; };
+		001A1B392B1F3A4D00A1B2C3 /* JunkScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JunkScannerView.swift; sourceTree = "<group>"; };
+		001A1B3B2B1F3A4D00A1B2C3 /* DiskAnalyzerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskAnalyzerView.swift; sourceTree = "<group>"; };
+		001A1B3D2B1F3A4D00A1B2C3 /* LargeFileFinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeFileFinderView.swift; sourceTree = "<group>"; };
+		001A1B3F2B1F3A4D00A1B2C3 /* AppUninstallerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUninstallerViewModel.swift; sourceTree = "<group>"; };
+		001A1B412B1F3A4D00A1B2C3 /* JunkScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JunkScannerViewModel.swift; sourceTree = "<group>"; };
+		001A1B432B1F3A4D00A1B2C3 /* DiskAnalyzerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskAnalyzerViewModel.swift; sourceTree = "<group>"; };
+		001A1B452B1F3A4D00A1B2C3 /* LargeFileFinderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeFileFinderViewModel.swift; sourceTree = "<group>"; };
+		001A1B472B1F3A4D00A1B2C3 /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		001A1B492B1F3A4D00A1B2C3 /* FileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileItem.swift; sourceTree = "<group>"; };
+		001A1B4B2B1F3A4D00A1B2C3 /* JunkFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JunkFile.swift; sourceTree = "<group>"; };
+		001A1B4D2B1F3A4D00A1B2C3 /* DiskNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskNode.swift; sourceTree = "<group>"; };
+		001A1B4F2B1F3A4D00A1B2C3 /* FileSystemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystemService.swift; sourceTree = "<group>"; };
+		001A1B512B1F3A4D00A1B2C3 /* AppDetectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetectionService.swift; sourceTree = "<group>"; };
+		001A1B532B1F3A4D00A1B2C3 /* AppUninstallerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUninstallerService.swift; sourceTree = "<group>"; };
+		001A1B552B1F3A4D00A1B2C3 /* JunkFileScannerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JunkFileScannerService.swift; sourceTree = "<group>"; };
+		001A1B572B1F3A4D00A1B2C3 /* DiskAnalyzerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskAnalyzerService.swift; sourceTree = "<group>"; };
+		001A1B592B1F3A4D00A1B2C3 /* LargeFileFinderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeFileFinderService.swift; sourceTree = "<group>"; };
+		001A1B5B2B1F3A4D00A1B2C3 /* PermissionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionService.swift; sourceTree = "<group>"; };
+		001A1B5D2B1F3A4D00A1B2C3 /* PathConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathConstants.swift; sourceTree = "<group>"; };
+		001A1B5F2B1F3A4D00A1B2C3 /* FormattingUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattingUtils.swift; sourceTree = "<group>"; };
+		001A1B612B1F3A4D00A1B2C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		001A1B632B1F3A4D00A1B2C3 /* CleanMyMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CleanMyMac.entitlements; sourceTree = "<group>"; };
 		001A1B6E2B1F3A4D00A1B2C3 /* CleanMyMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanMyMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		001A1B752B1F3A4D00A1B2C3 /* CleanMyMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CleanMyMacTests.swift"; sourceTree = "<group>"; };
-		001A1B652B1F3A4D00A1B2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+		001A1B752B1F3A4D00A1B2C3 /* CleanMyMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanMyMacTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +129,6 @@
 				AC1A1B5E2B1F3A4D00A1B2C3 /* Utilities */,
 				001A1B612B1F3A4D00A1B2C3 /* Assets.xcassets */,
 				001A1B632B1F3A4D00A1B2C3 /* CleanMyMac.entitlements */,
-				001A1B652B1F3A4D00A1B2C3 /* Info.plist */,
 			);
 			path = CleanMyMac;
 			sourceTree = "<group>";
