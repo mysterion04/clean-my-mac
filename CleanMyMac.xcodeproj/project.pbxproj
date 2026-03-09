@@ -34,7 +34,6 @@
 		001A1B5E2B1F3A4D00A1B2C3 /* PathConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B5D2B1F3A4D00A1B2C3; };
 		001A1B602B1F3A4D00A1B2C3 /* FormattingUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B5F2B1F3A4D00A1B2C3; };
 		001A1B622B1F3A4D00A1B2C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001A1B612B1F3A4D00A1B2C3; };
-		001A1B642B1F3A4D00A1B2C3 /* CleanMyMac.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 001A1B632B1F3A4D00A1B2C3; };
 		001A1B762B1F3A4D00A1B2C3 /* CleanMyMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B752B1F3A4D00A1B2C3; };
 /* End PBXBuildFile section */
 
@@ -43,7 +42,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 001A1B002B1F3A4D00A1B2C3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 001A1B072B1F3A4D00A1B2C3;
+			remoteGlobalIDString = 001A1B062B1F3A4D00A1B2C3;
 			remoteInfo = CleanMyMac;
 		};
 /* End PBXContainerItemProxy section */
@@ -102,7 +101,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		001A1B002B1F3A4D00A1B2C3 = {
+		AA1A1B002B1F3A4D00A1B2C3 = {
 			isa = PBXGroup;
 			children = (
 				001A1B0B2B1F3A4D00A1B2C3 /* CleanMyMac */,
@@ -125,10 +124,10 @@
 			children = (
 				001A1B0C2B1F3A4D00A1B2C3 /* App */,
 				001A1B2A2B1F3A4D00A1B2C3 /* Views */,
-				001A1B3E2B1F3A4D00A1B2C3 /* ViewModels */,
-				001A1B482B1F3A4D00A1B2C3 /* Models */,
-				001A1B502B1F3A4D00A1B2C3 /* Services */,
-				001A1B5E2B1F3A4D00A1B2C3 /* Utilities */,
+				EE1A1B3E2B1F3A4D00A1B2C3 /* ViewModels */,
+				FF1A1B482B1F3A4D00A1B2C3 /* Models */,
+				AB1A1B502B1F3A4D00A1B2C3 /* Services */,
+				AC1A1B5E2B1F3A4D00A1B2C3 /* Utilities */,
 				001A1B612B1F3A4D00A1B2C3 /* Assets.xcassets */,
 				001A1B632B1F3A4D00A1B2C3 /* CleanMyMac.entitlements */,
 				001A1B652B1F3A4D00A1B2C3 /* Info.plist */,
@@ -150,13 +149,13 @@
 			children = (
 				001A1B2F2B1F3A4D00A1B2C3 /* MainView.swift */,
 				001A1B312B1F3A4D00A1B2C3 /* SharedComponents.swift */,
-				001A1B3A2B1F3A4D00A1B2C3 /* Sidebar */,
-				001A1B3C2B1F3A4D00A1B2C3 /* Screens */,
+				CC1A1B3A2B1F3A4D00A1B2C3 /* Sidebar */,
+				DD1A1B3C2B1F3A4D00A1B2C3 /* Screens */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		001A1B3A2B1F3A4D00A1B2C3 /* Sidebar */ = {
+		CC1A1B3A2B1F3A4D00A1B2C3 /* Sidebar */ = {
 			isa = PBXGroup;
 			children = (
 				001A1B332B1F3A4D00A1B2C3 /* SidebarView.swift */,
@@ -164,7 +163,7 @@
 			path = Sidebar;
 			sourceTree = "<group>";
 		};
-		001A1B3C2B1F3A4D00A1B2C3 /* Screens */ = {
+		DD1A1B3C2B1F3A4D00A1B2C3 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
 				001A1B352B1F3A4D00A1B2C3 /* DashboardView.swift */,
@@ -176,7 +175,7 @@
 			path = Screens;
 			sourceTree = "<group>";
 		};
-		001A1B3E2B1F3A4D00A1B2C3 /* ViewModels */ = {
+		EE1A1B3E2B1F3A4D00A1B2C3 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 				001A1B3F2B1F3A4D00A1B2C3 /* AppUninstallerViewModel.swift */,
@@ -187,7 +186,7 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		001A1B482B1F3A4D00A1B2C3 /* Models */ = {
+		FF1A1B482B1F3A4D00A1B2C3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				001A1B472B1F3A4D00A1B2C3 /* AppInfo.swift */,
@@ -198,7 +197,7 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		001A1B502B1F3A4D00A1B2C3 /* Services */ = {
+		AB1A1B502B1F3A4D00A1B2C3 /* Services */ = {
 			isa = PBXGroup;
 			children = (
 				001A1B4F2B1F3A4D00A1B2C3 /* FileSystemService.swift */,
@@ -212,7 +211,7 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		001A1B5E2B1F3A4D00A1B2C3 /* Utilities */ = {
+		AC1A1B5E2B1F3A4D00A1B2C3 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
 				001A1B5D2B1F3A4D00A1B2C3 /* PathConstants.swift */,
@@ -236,7 +235,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 001A1B682B1F3A4D00A1B2C3 /* Build configuration list for PBXNativeTarget "CleanMyMac" */;
 			buildPhases = (
-				001A1B032B1F3A4D00A1B2C3 /* Sources */,
+				BB1A1B032B1F3A4D00A1B2C3 /* Sources */,
 				001A1B042B1F3A4D00A1B2C3 /* Frameworks */,
 				001A1B052B1F3A4D00A1B2C3 /* Resources */,
 			);
@@ -293,7 +292,7 @@
 				en,
 				Base,
 			);
-			mainGroup = 001A1B002B1F3A4D00A1B2C3;
+			mainGroup = AA1A1B002B1F3A4D00A1B2C3;
 			productRefGroup = 001A1B082B1F3A4D00A1B2C3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -310,7 +309,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				001A1B622B1F3A4D00A1B2C3 /* Assets.xcassets in Resources */,
-				001A1B642B1F3A4D00A1B2C3 /* CleanMyMac.entitlements in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +322,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		001A1B032B1F3A4D00A1B2C3 /* Sources */ = {
+		BB1A1B032B1F3A4D00A1B2C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -523,7 +521,7 @@
 			};
 			name = Release;
 		};
-		001A1B682B1F3A4D00A1B2C3 /* Debug */ = {
+		AD1A1B682B1F3A4D00A1B2C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -565,7 +563,7 @@
 			};
 			name = Release;
 		};
-		001A1B7E2B1F3A4D00A1B2C3 /* Debug */ = {
+		AE1A1B7E2B1F3A4D00A1B2C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -614,7 +612,7 @@
 		001A1B682B1F3A4D00A1B2C3 /* Build configuration list for PBXNativeTarget "CleanMyMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				001A1B682B1F3A4D00A1B2C3 /* Debug */,
+				AD1A1B682B1F3A4D00A1B2C3 /* Debug */,
 				001A1B692B1F3A4D00A1B2C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -623,7 +621,7 @@
 		001A1B7E2B1F3A4D00A1B2C3 /* Build configuration list for PBXNativeTarget "CleanMyMacTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				001A1B7E2B1F3A4D00A1B2C3 /* Debug */,
+				AE1A1B7E2B1F3A4D00A1B2C3 /* Debug */,
 				001A1B7F2B1F3A4D00A1B2C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
