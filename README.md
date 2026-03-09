@@ -4,7 +4,7 @@
        free & open-source macOS system cleaner                          
        a CleanMyMac clone — no subscription, no telemetry, no bs        
 
-[![Build](https://github.com/mysterion04/clean-my-mac/actions/workflows/build/badge.svg)](https://github.com/mysterion04/clean-my-mac/actions)
+[![Build](https://github.com/mysterion04/clean-my-mac/actions/workflows/build.yml/badge.svg)](https://github.com/mysterion04/clean-my-mac/actions/workflows/build.yml)
 ![Platform](https://img.shields.io/badge/platform-macOS%2014%2B-blue)
 ![Swift](https://img.shields.io/badge/swift-5.9-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
