@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+/* Begin PBXBuildFile section */
+		001A1B2C2B1F3A4D00A1B2C3 /* CleanMyMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B2B2B1F3A4D00A1B2C3; };
+		001A1B2E2B1F3A4D00A1B2C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B2D2B1F3A4D00A1B2C3; };
+		001A1B302B1F3A4D00A1B2C3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B2F2B1F3A4D00A1B2C3; };
+		001A1B322B1F3A4D00A1B2C3 /* SharedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B312B1F3A4D00A1B2C3; };
+		001A1B342B1F3A4D00A1B2C3 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B332B1F3A4D00A1B2C3; };
+		001A1B362B1F3A4D00A1B2C3 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B352B1F3A4D00A1B2C3; };
+		001A1B382B1F3A4D00A1B2C3 /* AppUninstallerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B372B1F3A4D00A1B2C3; };
+		001A1B3A2B1F3A4D00A1B2C3 /* JunkScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B392B1F3A4D00A1B2C3; };
+		001A1B3C2B1F3A4D00A1B2C3 /* DiskAnalyzerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B3B2B1F3A4D00A1B2C3; };
+		001A1B3E2B1F3A4D00A1B2C3 /* LargeFileFinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B3D2B1F3A4D00A1B2C3; };
+		001A1B402B1F3A4D00A1B2C3 /* AppUninstallerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B3F2B1F3A4D00A1B2C3; };
+		001A1B422B1F3A4D00A1B2C3 /* JunkScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B412B1F3A4D00A1B2C3; };
+		001A1B442B1F3A4D00A1B2C3 /* DiskAnalyzerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B432B1F3A4D00A1B2C3; };
+		001A1B462B1F3A4D00A1B2C3 /* LargeFileFinderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B452B1F3A4D00A1B2C3; };
+		001A1B482B1F3A4D00A1B2C3 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B472B1F3A4D00A1B2C3; };
+		001A1B4A2B1F3A4D00A1B2C3 /* FileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B492B1F3A4D00A1B2C3; };
+		001A1B4C2B1F3A4D00A1B2C3 /* JunkFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B4B2B1F3A4D00A1B2C3; };
+		001A1B4E2B1F3A4D00A1B2C3 /* DiskNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B4D2B1F3A4D00A1B2C3; };
+		001A1B502B1F3A4D00A1B2C3 /* FileSystemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B4F2B1F3A4D00A1B2C3; };
+		001A1B522B1F3A4D00A1B2C3 /* AppDetectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B512B1F3A4D00A1B2C3; };
+		001A1B542B1F3A4D00A1B2C3 /* AppUninstallerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B532B1F3A4D00A1B2C3; };
+		001A1B562B1F3A4D00A1B2C3 /* JunkFileScannerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B552B1F3A4D00A1B2C3; };
+		001A1B582B1F3A4D00A1B2C3 /* DiskAnalyzerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B572B1F3A4D00A1B2C3; };
+		001A1B5A2B1F3A4D00A1B2C3 /* LargeFileFinderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B592B1F3A4D00A1B2C3; };
+		001A1B5C2B1F3A4D00A1B2C3 /* PermissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B5B2B1F3A4D00A1B2C3; };
+		001A1B5E2B1F3A4D00A1B2C3 /* PathConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B5D2B1F3A4D00A1B2C3; };
+		001A1B602B1F3A4D00A1B2C3 /* FormattingUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B5F2B1F3A4D00A1B2C3; };
+		001A1B622B1F3A4D00A1B2C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001A1B612B1F3A4D00A1B2C3; };
+		001A1B762B1F3A4D00A1B2C3 /* CleanMyMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A1B752B1F3A4D00A1B2C3; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		001A1B772B1F3A4D00A1B2C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 001A1B002B1F3A4D00A1B2C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 001A1B062B1F3A4D00A1B2C3;
+			remoteInfo = CleanMyMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001A1B072B1F3A4D00A1B2C3 /* CleanMyMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanMyMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		001A1B2B2B1F3A4D00A1B2C3 /* CleanMyMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanMyMacApp.swift; sourceTree = "<group>"; };
+		001A1B2D2B1F3A4D00A1B2C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		001A1B2F2B1F3A4D00A1B2C3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		001A1B312B1F3A4D00A1B2C3 /* SharedComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedComponents.swift; sourceTree = "<group>"; };
+		001A1B332B1F3A4D00A1B2C3 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		001A1B352B1F3A4D00A1B2C3 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		001A1B372B1F3A4D00A1B2C3 /* AppUninstallerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUninstallerView.swift; sourceTree = "<group>"; };
+		001A1B392B1F3A4D00A1B2C3 /* JunkScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JunkScannerView.swift; sourceTree = "<group>"; };
+		001A1B3B2B1F3A4D00A1B2C3 /* DiskAnalyzerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskAnalyzerView.swift; sourceTree = "<group>"; };
+		001A1B3D2B1F3A4D00A1B2C3 /* LargeFileFinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeFileFinderView.swift; sourceTree = "<group>"; };
+		001A1B3F2B1F3A4D00A1B2C3 /* AppUninstallerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUninstallerViewModel.swift; sourceTree = "<group>"; };
+		001A1B412B1F3A4D00A1B2C3 /* JunkScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JunkScannerViewModel.swift; sourceTree = "<group>"; };
+		001A1B432B1F3A4D00A1B2C3 /* DiskAnalyzerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskAnalyzerViewModel.swift; sourceTree = "<group>"; };
+		001A1B452B1F3A4D00A1B2C3 /* LargeFileFinderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeFileFinderViewModel.swift; sourceTree = "<group>"; };
+		001A1B472B1F3A4D00A1B2C3 /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		001A1B492B1F3A4D00A1B2C3 /* FileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileItem.swift; sourceTree = "<group>"; };
+		001A1B4B2B1F3A4D00A1B2C3 /* JunkFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JunkFile.swift; sourceTree = "<group>"; };
+		001A1B4D2B1F3A4D00A1B2C3 /* DiskNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskNode.swift; sourceTree = "<group>"; };
+		001A1B4F2B1F3A4D00A1B2C3 /* FileSystemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystemService.swift; sourceTree = "<group>"; };
+		001A1B512B1F3A4D00A1B2C3 /* AppDetectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetectionService.swift; sourceTree = "<group>"; };
+		001A1B532B1F3A4D00A1B2C3 /* AppUninstallerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUninstallerService.swift; sourceTree = "<group>"; };
+		001A1B552B1F3A4D00A1B2C3 /* JunkFileScannerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JunkFileScannerService.swift; sourceTree = "<group>"; };
+		001A1B572B1F3A4D00A1B2C3 /* DiskAnalyzerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskAnalyzerService.swift; sourceTree = "<group>"; };
+		001A1B592B1F3A4D00A1B2C3 /* LargeFileFinderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeFileFinderService.swift; sourceTree = "<group>"; };
+		001A1B5B2B1F3A4D00A1B2C3 /* PermissionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionService.swift; sourceTree = "<group>"; };
+		001A1B5D2B1F3A4D00A1B2C3 /* PathConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathConstants.swift; sourceTree = "<group>"; };
+		001A1B5F2B1F3A4D00A1B2C3 /* FormattingUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattingUtils.swift; sourceTree = "<group>"; };
+		001A1B612B1F3A4D00A1B2C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		001A1B632B1F3A4D00A1B2C3 /* CleanMyMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CleanMyMac.entitlements; sourceTree = "<group>"; };
+		001A1B6E2B1F3A4D00A1B2C3 /* CleanMyMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanMyMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		001A1B752B1F3A4D00A1B2C3 /* CleanMyMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanMyMacTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		001A1B042B1F3A4D00A1B2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001A1B6B2B1F3A4D00A1B2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA1A1B002B1F3A4D00A1B2C3 = {
+			isa = PBXGroup;
+			children = (
+				001A1B0B2B1F3A4D00A1B2C3 /* CleanMyMac */,
+				001A1B742B1F3A4D00A1B2C3 /* CleanMyMacTests */,
+				001A1B082B1F3A4D00A1B2C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		001A1B082B1F3A4D00A1B2C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				001A1B072B1F3A4D00A1B2C3 /* CleanMyMac.app */,
+				001A1B6E2B1F3A4D00A1B2C3 /* CleanMyMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		001A1B0B2B1F3A4D00A1B2C3 /* CleanMyMac */ = {
+			isa = PBXGroup;
+			children = (
+				001A1B0C2B1F3A4D00A1B2C3 /* App */,
+				001A1B2A2B1F3A4D00A1B2C3 /* Views */,
+				EE1A1B3E2B1F3A4D00A1B2C3 /* ViewModels */,
+				FF1A1B482B1F3A4D00A1B2C3 /* Models */,
+				AB1A1B502B1F3A4D00A1B2C3 /* Services */,
+				AC1A1B5E2B1F3A4D00A1B2C3 /* Utilities */,
+				001A1B612B1F3A4D00A1B2C3 /* Assets.xcassets */,
+				001A1B632B1F3A4D00A1B2C3 /* CleanMyMac.entitlements */,
+			);
+			path = CleanMyMac;
+			sourceTree = "<group>";
+		};
+		001A1B0C2B1F3A4D00A1B2C3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				001A1B2B2B1F3A4D00A1B2C3 /* CleanMyMacApp.swift */,
+				001A1B2D2B1F3A4D00A1B2C3 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		001A1B2A2B1F3A4D00A1B2C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				001A1B2F2B1F3A4D00A1B2C3 /* MainView.swift */,
+				001A1B312B1F3A4D00A1B2C3 /* SharedComponents.swift */,
+				CC1A1B3A2B1F3A4D00A1B2C3 /* Sidebar */,
+				DD1A1B3C2B1F3A4D00A1B2C3 /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC1A1B3A2B1F3A4D00A1B2C3 /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				001A1B332B1F3A4D00A1B2C3 /* SidebarView.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		DD1A1B3C2B1F3A4D00A1B2C3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				001A1B352B1F3A4D00A1B2C3 /* DashboardView.swift */,
+				001A1B372B1F3A4D00A1B2C3 /* AppUninstallerView.swift */,
+				001A1B392B1F3A4D00A1B2C3 /* JunkScannerView.swift */,
+				001A1B3B2B1F3A4D00A1B2C3 /* DiskAnalyzerView.swift */,
+				001A1B3D2B1F3A4D00A1B2C3 /* LargeFileFinderView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		EE1A1B3E2B1F3A4D00A1B2C3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				001A1B3F2B1F3A4D00A1B2C3 /* AppUninstallerViewModel.swift */,
+				001A1B412B1F3A4D00A1B2C3 /* JunkScannerViewModel.swift */,
+				001A1B432B1F3A4D00A1B2C3 /* DiskAnalyzerViewModel.swift */,
+				001A1B452B1F3A4D00A1B2C3 /* LargeFileFinderViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FF1A1B482B1F3A4D00A1B2C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				001A1B472B1F3A4D00A1B2C3 /* AppInfo.swift */,
+				001A1B492B1F3A4D00A1B2C3 /* FileItem.swift */,
+				001A1B4B2B1F3A4D00A1B2C3 /* JunkFile.swift */,
+				001A1B4D2B1F3A4D00A1B2C3 /* DiskNode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB1A1B502B1F3A4D00A1B2C3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				001A1B4F2B1F3A4D00A1B2C3 /* FileSystemService.swift */,
+				001A1B512B1F3A4D00A1B2C3 /* AppDetectionService.swift */,
+				001A1B532B1F3A4D00A1B2C3 /* AppUninstallerService.swift */,
+				001A1B552B1F3A4D00A1B2C3 /* JunkFileScannerService.swift */,
+				001A1B572B1F3A4D00A1B2C3 /* DiskAnalyzerService.swift */,
+				001A1B592B1F3A4D00A1B2C3 /* LargeFileFinderService.swift */,
+				001A1B5B2B1F3A4D00A1B2C3 /* PermissionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AC1A1B5E2B1F3A4D00A1B2C3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				001A1B5D2B1F3A4D00A1B2C3 /* PathConstants.swift */,
+				001A1B5F2B1F3A4D00A1B2C3 /* FormattingUtils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		001A1B742B1F3A4D00A1B2C3 /* CleanMyMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				001A1B752B1F3A4D00A1B2C3 /* CleanMyMacTests.swift */,
+			);
+			path = CleanMyMacTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		001A1B062B1F3A4D00A1B2C3 /* CleanMyMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001A1B682B1F3A4D00A1B2C3 /* Build configuration list for PBXNativeTarget "CleanMyMac" */;
+			buildPhases = (
+				BB1A1B032B1F3A4D00A1B2C3 /* Sources */,
+				001A1B042B1F3A4D00A1B2C3 /* Frameworks */,
+				001A1B052B1F3A4D00A1B2C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CleanMyMac;
+			productName = CleanMyMac;
+			productReference = 001A1B072B1F3A4D00A1B2C3 /* CleanMyMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		001A1B6D2B1F3A4D00A1B2C3 /* CleanMyMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001A1B7E2B1F3A4D00A1B2C3 /* Build configuration list for PBXNativeTarget "CleanMyMacTests" */;
+			buildPhases = (
+				001A1B6A2B1F3A4D00A1B2C3 /* Sources */,
+				001A1B6B2B1F3A4D00A1B2C3 /* Frameworks */,
+				001A1B6C2B1F3A4D00A1B2C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				001A1B782B1F3A4D00A1B2C3 /* PBXTargetDependency */,
+			);
+			name = CleanMyMacTests;
+			productName = CleanMyMacTests;
+			productReference = 001A1B6E2B1F3A4D00A1B2C3 /* CleanMyMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		001A1B002B1F3A4D00A1B2C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					001A1B062B1F3A4D00A1B2C3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					001A1B6D2B1F3A4D00A1B2C3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 001A1B032B1F3A4D00A1B2C3 /* Build configuration list for PBXProject "CleanMyMac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA1A1B002B1F3A4D00A1B2C3;
+			productRefGroup = 001A1B082B1F3A4D00A1B2C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				001A1B062B1F3A4D00A1B2C3 /* CleanMyMac */,
+				001A1B6D2B1F3A4D00A1B2C3 /* CleanMyMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		001A1B052B1F3A4D00A1B2C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001A1B622B1F3A4D00A1B2C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001A1B6C2B1F3A4D00A1B2C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB1A1B032B1F3A4D00A1B2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001A1B2C2B1F3A4D00A1B2C3 /* CleanMyMacApp.swift in Sources */,
+				001A1B2E2B1F3A4D00A1B2C3 /* ContentView.swift in Sources */,
+				001A1B302B1F3A4D00A1B2C3 /* MainView.swift in Sources */,
+				001A1B322B1F3A4D00A1B2C3 /* SharedComponents.swift in Sources */,
+				001A1B342B1F3A4D00A1B2C3 /* SidebarView.swift in Sources */,
+				001A1B362B1F3A4D00A1B2C3 /* DashboardView.swift in Sources */,
+				001A1B382B1F3A4D00A1B2C3 /* AppUninstallerView.swift in Sources */,
+				001A1B3A2B1F3A4D00A1B2C3 /* JunkScannerView.swift in Sources */,
+				001A1B3C2B1F3A4D00A1B2C3 /* DiskAnalyzerView.swift in Sources */,
+				001A1B3E2B1F3A4D00A1B2C3 /* LargeFileFinderView.swift in Sources */,
+				001A1B402B1F3A4D00A1B2C3 /* AppUninstallerViewModel.swift in Sources */,
+				001A1B422B1F3A4D00A1B2C3 /* JunkScannerViewModel.swift in Sources */,
+				001A1B442B1F3A4D00A1B2C3 /* DiskAnalyzerViewModel.swift in Sources */,
+				001A1B462B1F3A4D00A1B2C3 /* LargeFileFinderViewModel.swift in Sources */,
+				001A1B482B1F3A4D00A1B2C3 /* AppInfo.swift in Sources */,
+				001A1B4A2B1F3A4D00A1B2C3 /* FileItem.swift in Sources */,
+				001A1B4C2B1F3A4D00A1B2C3 /* JunkFile.swift in Sources */,
+				001A1B4E2B1F3A4D00A1B2C3 /* DiskNode.swift in Sources */,
+				001A1B502B1F3A4D00A1B2C3 /* FileSystemService.swift in Sources */,
+				001A1B522B1F3A4D00A1B2C3 /* AppDetectionService.swift in Sources */,
+				001A1B542B1F3A4D00A1B2C3 /* AppUninstallerService.swift in Sources */,
+				001A1B562B1F3A4D00A1B2C3 /* JunkFileScannerService.swift in Sources */,
+				001A1B582B1F3A4D00A1B2C3 /* DiskAnalyzerService.swift in Sources */,
+				001A1B5A2B1F3A4D00A1B2C3 /* LargeFileFinderService.swift in Sources */,
+				001A1B5C2B1F3A4D00A1B2C3 /* PermissionService.swift in Sources */,
+				001A1B5E2B1F3A4D00A1B2C3 /* PathConstants.swift in Sources */,
+				001A1B602B1F3A4D00A1B2C3 /* FormattingUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		001A1B6A2B1F3A4D00A1B2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001A1B762B1F3A4D00A1B2C3 /* CleanMyMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		001A1B782B1F3A4D00A1B2C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 001A1B062B1F3A4D00A1B2C3 /* CleanMyMac */;
+			targetProxy = 001A1B772B1F3A4D00A1B2C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		001A1B092B1F3A4D00A1B2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_DIALECT = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_DIALECT = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_ABOUT_UNINITIALIZED_VARIABLES = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_MISSING_NEWLINE = YES;
+				GCC_WARN_MISSING_PROTOTYPES = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		001A1B0A2B1F3A4D00A1B2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_DIALECT = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_DIALECT = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_ABOUT_UNINITIALIZED_VARIABLES = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_MISSING_NEWLINE = YES;
+				GCC_WARN_MISSING_PROTOTYPES = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AD1A1B682B1F3A4D00A1B2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = "CleanMyMac/CleanMyMac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleanmymac.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		001A1B692B1F3A4D00A1B2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = "CleanMyMac/CleanMyMac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleanmymac.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AE1A1B7E2B1F3A4D00A1B2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleanmymac.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanMyMac.app/Contents/MacOS/CleanMyMac";
+			};
+			name = Debug;
+		};
+		001A1B7F2B1F3A4D00A1B2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleanmymac.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanMyMac.app/Contents/MacOS/CleanMyMac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		001A1B032B1F3A4D00A1B2C3 /* Build configuration list for PBXProject "CleanMyMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001A1B092B1F3A4D00A1B2C3 /* Debug */,
+				001A1B0A2B1F3A4D00A1B2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		001A1B682B1F3A4D00A1B2C3 /* Build configuration list for PBXNativeTarget "CleanMyMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD1A1B682B1F3A4D00A1B2C3 /* Debug */,
+				001A1B692B1F3A4D00A1B2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		001A1B7E2B1F3A4D00A1B2C3 /* Build configuration list for PBXNativeTarget "CleanMyMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1A1B7E2B1F3A4D00A1B2C3 /* Debug */,
+				001A1B7F2B1F3A4D00A1B2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 001A1B002B1F3A4D00A1B2C3 /* Project object */;
+}
