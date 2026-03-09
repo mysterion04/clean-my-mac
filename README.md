@@ -1,22 +1,15 @@
-```
-  ╔══════════════════════════════════════════════════════════════════════╗
-  ║                                                                      ║
-  ║    🧽   c l e a n n - m i - m a c c c                              ║
-  ║                                                                      ║
-  ║    free & open-source macOS system cleaner                          ║
-  ║    a CleanMyMac clone — no subscription, no telemetry, no bs        ║
-  ║                                                                      ║
-  ╚══════════════════════════════════════════════════════════════════════╝
-```
 
-[![Build](https://github.com/mysterion04/clean-my-mac/actions/workflows/build.yml/badge.svg)](https://github.com/mysterion04/clean-my-mac/actions/workflows/build.yml)
+       🧽 cleann-mi-maccc                              
+                                                                        
+       free & open-source macOS system cleaner                          
+       a CleanMyMac clone — no subscription, no telemetry, no bs        
+
+[![Build](https://github.com/mysterion04/clean-my-mac/actions/workflows/build/badge.svg)](https://github.com/mysterion04/clean-my-mac/actions)
 ![Platform](https://img.shields.io/badge/platform-macOS%2014%2B-blue)
 ![Swift](https://img.shields.io/badge/swift-5.9-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
----
-
-> **CleanMyMac charges $35/year for this. This is free. It does the same things.**
+ ### **CleanMyMac charges $35/year for this. This is free. It does the same things.**
 
 ### [⬇️ Download cleann-mi-maccc.dmg — Latest Release](https://github.com/mysterion04/clean-my-mac/releases/latest)
 
@@ -138,12 +131,6 @@ xcodebuild \
 ## Contributing
 
 PRs welcome. Open an issue first for big changes.
-
----
-
-## Credits
-
-Built entirely with [Claude Code](https://claude.ai/code) by Anthropic — every line of Swift, the project structure, CI pipeline, icon generation, and this README were written by **Claude Sonnet 4.6** in a single session. Zero human-written code.
 
 ---
 

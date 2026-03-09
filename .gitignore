@@ -6,3 +6,4 @@ DerivedData/
 *.o
 *.d
 .claude/
+CLAUDE.md

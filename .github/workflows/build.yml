@@ -1,4 +1,4 @@
-name: Build CleanMyMac
+name: Build cleann-mi-maccc
 
 on:
   push:
@@ -102,6 +102,18 @@ jobs:
           name: cleann-mi-maccc
           path: cleann-mi-maccc.dmg
           retention-days: 30
+
+      - name: Create Release
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release delete latest --yes || true
+          gh release create latest \
+            --title "cleann-mi-maccc — Latest Build" \
+            --notes "Auto-built from \`main\` ($(date -u '+%Y-%m-%d %H:%M UTC'))" \
+            --latest \
+            cleann-mi-maccc.dmg
 
       - name: Run Tests
         run: |
