@@ -49,7 +49,7 @@ class LargeFileFinderViewModel: ObservableObject {
 
         let threshold = sizeThreshold
         scanTask = Task { @MainActor in
-            let results = await finder.scan(sizeThreshold: threshold) { [weak self] message in
+            let results = await finder.scan(sizeThreshold: threshold) { @MainActor [weak self] message in
                 self?.scanProgress = message
             }
             guard !Task.isCancelled else { return }
